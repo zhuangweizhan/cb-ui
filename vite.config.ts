@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => {
       ]
     },
     build: {
-      assetsDir: "./vue3/"
+      assetsDir: "./cb-ui/dist/"
     },
     server: {
       host: "0.0.0.0",
