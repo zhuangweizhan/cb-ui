@@ -4,8 +4,6 @@
   "scripts": {
     "dev": "vite --mode dev",
     "build": "vite build --mode test",
-    "buildDoc": "node build",
-    "buildVSCode": "node build/vscode.js",
     "prod": "vite build --mode prod",
     "serve": "vite preview",
     "check": "vue-tsc --noEmit"
