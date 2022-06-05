@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => {
       ]
     },
     build: {
-      assetsDir: "./cb-ui/dist/"
+      assetsDir: "./"
     },
     server: {
       host: "0.0.0.0",
