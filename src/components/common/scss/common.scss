@@ -1,0 +1,55 @@
+// z-index
+$z-index-overlay: 2000; //阴影遮挡
+
+// font
+$font-small: 12px;
+$font-normal: 14px;
+$font-large: 16px;
+$font-larger: 18px;
+
+// color
+$color-normal: #333333;
+$color-danger: #f5222d;
+$color-success: #068b11;
+$color-gray: #8c8c8c;
+$color-primary: #5187ea;
+$color-info: #306ef0;
+
+$namespace: "cb";
+$element-separator: "__";
+$modifier-separator: "-";
+
+@mixin b($block) {
+  $B: $namespace + "-" + $block !global;
+
+  .#{$B} {
+    @content;
+  }
+}
+
+@mixin e($element) {
+  $currentSelector: "";
+  @each $unit in $element {
+    $currentSelector: #{$currentSelector + "." + $B + $element-separator + $unit + ","};
+  }
+
+  @at-root {
+    #{$currentSelector} {
+      @content;
+    }
+  }
+}
+
+@mixin m($modifier) {
+  $parentSelector: & !global;
+  $currentSelector: "";
+  @each $unit in $modifier {
+    $currentSelector: #{$currentSelector + & + $modifier-separator + $unit + ","};
+  }
+
+  @at-root {
+    #{$currentSelector} {
+      @content;
+    }
+  }
+}
