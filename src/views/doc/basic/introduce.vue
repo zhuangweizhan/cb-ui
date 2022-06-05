@@ -47,7 +47,7 @@
 
     <template #mobile>
       <m-header title="CB-UI" :back="false" />
-      <iframe :src="`${pathname}/#/basic/mobile`" style="width:385px;height:677px;" />
+      <iframe :src="`${pathname}#/basic/mobile`" style="width:385px;height:677px;" />
     </template>
   </w-page>
 </template>
@@ -65,7 +65,9 @@ export default defineComponent({
     }
   },
   setup() {
-    const pathname = window.location.pathname === "/" ? "" : window.location.pathname
+    // const pathname = window.location.pathname === "/" ? "" : window.location.pathname
+
+    const pathname = "https://zhuangweizhan.github.io/cb-ui/dist/index.html"
 
     return {
       pathname

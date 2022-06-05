@@ -42,8 +42,10 @@ export default defineComponent({
     }
 
     const goPage = url => {
-      const pathname = window.location.pathname === "/" ? "" : window.location.pathname
-      window.parent.open(pathname + "/#/doc/" + url, "_self")
+      // const pathname = window.location.pathname === "/" ? "" : window.location.pathname
+      const pathname = "https://zhuangweizhan.github.io/cb-ui/dist/index.html"
+
+      window.parent.open(pathname + "#doc/" + url, "_self")
     }
 
     return {
