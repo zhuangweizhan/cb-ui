@@ -4,7 +4,7 @@
 
 <template>
   <m-card>
-    <cb-button :plain="true" icon="/image/icon.png">嵌入图标</cb-button>
+    <cb-button :plain="true" icon="/cb-ui/dist/image/icon.png">嵌入图标</cb-button>
     <cb-button :loading="true">加载状态</cb-button>
     <cb-button :radius="5">自定义圆角</cb-button>
     <cb-button :auto-loading="true" @click="test">支持异步</cb-button>

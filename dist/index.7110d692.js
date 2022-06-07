@@ -1,4 +1,4 @@
-var T=Object.defineProperty,z=Object.defineProperties;var S=Object.getOwnPropertyDescriptors;var m=Object.getOwnPropertySymbols;var j=Object.prototype.hasOwnProperty,N=Object.prototype.propertyIsEnumerable;var y=(t,o,e)=>o in t?T(t,o,{enumerable:!0,configurable:!0,writable:!0,value:e}):t[o]=e,g=(t,o)=>{for(var e in o||(o={}))j.call(o,e)&&y(t,e,o[e]);if(m)for(var e of m(o))N.call(o,e)&&y(t,e,o[e]);return t},$=(t,o)=>z(t,S(o));import{_ as s,k as a,o as i,p as d,m as n,l as u,i as r,d as p,x as P}from"./index.e8a1070b.js";function F(t){t.__sourceCode=`<template>\r
+var T=Object.defineProperty,z=Object.defineProperties;var S=Object.getOwnPropertyDescriptors;var m=Object.getOwnPropertySymbols;var j=Object.prototype.hasOwnProperty,N=Object.prototype.propertyIsEnumerable;var y=(t,o,e)=>o in t?T(t,o,{enumerable:!0,configurable:!0,writable:!0,value:e}):t[o]=e,g=(t,o)=>{for(var e in o||(o={}))j.call(o,e)&&y(t,e,o[e]);if(m)for(var e of m(o))N.call(o,e)&&y(t,e,o[e]);return t},$=(t,o)=>z(t,S(o));import{_ as s,k as a,o as i,p as d,m as n,l as u,i as r,d as p,x as P}from"./index.b523f155.js";function F(t){t.__sourceCode=`<template>\r
   <m-card>\r
     <cb-button type="primary">\u9ED8\u8BA4\u4E3B\u9898</cb-button>\r
     <cb-button type="gray">\u7070\u8272\u4E3B\u9898</cb-button>\r
@@ -51,7 +51,7 @@ export default defineComponent({\r
 }\r
 </style>`,t.__sourceTitle="\u5927\u5C0F\u63A7\u5236",t.__sourceRemark=""}const D={},Z=r("\u5C0F\u6309\u94AE"),tt=r("\u6B63\u5E38\u6309\u94AE"),et=r("\u5927\u6309\u94AE");function nt(t,o){const e=a("cb-button"),_=a("m-card");return i(),d(_,null,{default:n(()=>[u(e,{size:"small"},{default:n(()=>[Z]),_:1}),u(e,{size:"normal"},{default:n(()=>[tt]),_:1}),u(e,{size:"large"},{default:n(()=>[et]),_:1})]),_:1})}typeof B=="function"&&B(D);var ut=s(D,[["render",nt]]);function h(t){t.__sourceCode=`<template>\r
   <m-card>\r
-    <cb-button :plain="true" icon="/image/icon.png">\u5D4C\u5165\u56FE\u6807</cb-button>\r
+    <cb-button :plain="true" icon="/cb-ui/dist/image/icon.png">\u5D4C\u5165\u56FE\u6807</cb-button>\r
     <cb-button :loading="true">\u52A0\u8F7D\u72B6\u6001</cb-button>\r
     <cb-button :radius="5">\u81EA\u5B9A\u4E49\u5706\u89D2</cb-button>\r
     <cb-button :auto-loading="true" @click="test">\u652F\u6301\u5F02\u6B65</cb-button>\r
@@ -76,7 +76,7 @@ export default defineComponent({\r
     }\r
   }\r
 })\r
-<\/script>`,t.__sourceTitle="\u56FE\u6807\u6848\u4F8B",t.__sourceRemark=""}const A=p({setup(t,o){return{test:()=>new Promise((_,b)=>{setTimeout(()=>{alert("\u70B9\u51FB\u6210\u529F"),_(!0)},1e3)})}}}),rt=r("\u5D4C\u5165\u56FE\u6807"),ot=r("\u52A0\u8F7D\u72B6\u6001"),ct=r("\u81EA\u5B9A\u4E49\u5706\u89D2"),at=r("\u652F\u6301\u5F02\u6B65");function _t(t,o,e,_,b,f){const c=a("cb-button"),l=a("m-card");return i(),d(l,null,{default:n(()=>[u(c,{plain:!0,icon:"/image/icon.png"},{default:n(()=>[rt]),_:1}),u(c,{loading:!0},{default:n(()=>[ot]),_:1}),u(c,{radius:5},{default:n(()=>[ct]),_:1}),u(c,{"auto-loading":!0,onClick:t.test},{default:n(()=>[at]),_:1},8,["onClick"])]),_:1})}typeof h=="function"&&h(A);var st=s(A,[["render",_t]]);function x(t){t.__sourceCode=`<template>\r
+<\/script>`,t.__sourceTitle="\u56FE\u6807\u6848\u4F8B",t.__sourceRemark=""}const A=p({setup(t,o){return{test:()=>new Promise((_,b)=>{setTimeout(()=>{alert("\u70B9\u51FB\u6210\u529F"),_(!0)},1e3)})}}}),rt=r("\u5D4C\u5165\u56FE\u6807"),ot=r("\u52A0\u8F7D\u72B6\u6001"),ct=r("\u81EA\u5B9A\u4E49\u5706\u89D2"),at=r("\u652F\u6301\u5F02\u6B65");function _t(t,o,e,_,b,f){const c=a("cb-button"),l=a("m-card");return i(),d(l,null,{default:n(()=>[u(c,{plain:!0,icon:"/cb-ui/dist/image/icon.png"},{default:n(()=>[rt]),_:1}),u(c,{loading:!0},{default:n(()=>[ot]),_:1}),u(c,{radius:5},{default:n(()=>[ct]),_:1}),u(c,{"auto-loading":!0,onClick:t.test},{default:n(()=>[at]),_:1},8,["onClick"])]),_:1})}typeof h=="function"&&h(A);var st=s(A,[["render",_t]]);function x(t){t.__sourceCode=`<template>\r
   <m-card>\r
     <cb-button :is-block="true">\u5757\u7EA7\u6A21\u5F0F</cb-button>\r
   </m-card>\r

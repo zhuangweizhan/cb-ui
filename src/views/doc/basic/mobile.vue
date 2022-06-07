@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="basic_title">
-      <img class="basic_logo" src="/image/icon.png" alt="logo" />
+      <img class="basic_logo" src="/cb-ui/dist/image/icon.png" alt="logo" />
       <div>面向 Vue3 的移动端组件库</div>
     </div>
 

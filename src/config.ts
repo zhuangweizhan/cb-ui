@@ -1,6 +1,6 @@
 const config = {
   title: "一款基于 Vue3 + Typescript 移动端开源组件库",
-  logo: "/image/icon.png",
+  logo: "/cb-ui/dist/image/icon.png",
   desc: "一款基于vue3 + typescript开源组件库",
   basicMenu: [
     {
