@@ -15,7 +15,10 @@ const config = {
   componentsMenu: [
     {
       title: "基础组件",
-      children: [{ name: "按钮", url: "button" }]
+      children: [
+        { name: "按钮", url: "button" },
+        { name: "输入框", url: "input" }
+      ]
     }
   ]
 }

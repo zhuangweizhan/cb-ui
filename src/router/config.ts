@@ -32,6 +32,10 @@ export const routesConfig = [
       {
         path: "/doc/button",
         component: () => import("@/views/doc/components/button/index.vue")
+      },
+      {
+        path: "/doc/input",
+        component: () => import("@/views/doc/components/input/index.vue")
       }
     ]
   },
@@ -42,6 +46,10 @@ export const routesConfig = [
       {
         path: "/mobile/button",
         component: () => import("@/views/doc/components/button/mobile.vue")
+      },
+      {
+        path: "/mobile/input",
+        component: () => import("@/views/doc/components/input/mobile.vue")
       }
     ]
   },

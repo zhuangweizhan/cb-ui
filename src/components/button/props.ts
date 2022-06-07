@@ -21,7 +21,7 @@ export const props = {
     type: Boolean,
     default: false
   },
-  // 字体大小
+  // 按钮大小
   size: {
     type: String as PropType<SizeItem>,
     default: "normal",
