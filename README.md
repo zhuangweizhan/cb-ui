@@ -4,4 +4,5 @@
 
 ### CB-UI 更新记录
 
-1. 手写 button
+1. 手写 Button, 教程参考：https://juejin.cn/post/7105928234042294303
+2. 手写 Input, 教程参考：https://juejin.cn/post/7106513310106796040

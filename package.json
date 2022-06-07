@@ -5,6 +5,7 @@
     "dev": "vite --mode dev",
     "build": "vite build --mode test",
     "prod": "vite build --mode prod",
+    "buildDoc": "node build",
     "serve": "vite preview",
     "check": "vue-tsc --noEmit"
   },
