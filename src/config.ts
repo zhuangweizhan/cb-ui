@@ -17,7 +17,8 @@ const config = {
       title: "基础组件",
       children: [
         { name: "按钮", url: "button" },
-        { name: "输入框", url: "input" }
+        { name: "输入框", url: "input" },
+        { name: "标签", url: "tag" }
       ]
     }
   ]
