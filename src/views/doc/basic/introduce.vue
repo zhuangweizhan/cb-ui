@@ -54,6 +54,7 @@
 
 <script lang="ts">
 import { reactive, defineComponent, toRefs } from "vue"
+import { useCommon } from "../../../plugins/common"
 
 export default defineComponent({
   name: "mobile",
@@ -65,12 +66,10 @@ export default defineComponent({
     }
   },
   setup() {
-    // const pathname = window.location.pathname === "/" ? "" : window.location.pathname
-
-    const pathname = "https://zhuangweizhan.github.io/cb-ui/dist/index.html"
+    const commonData = useCommon("")
 
     return {
-      pathname
+      ...toRefs(commonData)
     }
   }
 })

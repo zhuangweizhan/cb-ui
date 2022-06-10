@@ -23,6 +23,7 @@ import config from "@/config"
 import { reactive, ref, defineComponent, Ref, watch, toRefs } from "vue"
 import router from "@/router"
 import { useRoute } from "vue-router"
+import { useCommon } from "../../../plugins/common"
 
 export default defineComponent({
   name: "AppSidebar",
@@ -31,9 +32,10 @@ export default defineComponent({
   setup(props, { emit }) {
     const menu = ref(config.componentsMenu)
     const stateCommon = {}
+    const commonData = useCommon("")
 
     //格式化标题
-    const formatTitle: String = (title: String) => {
+    const formatTitle = (title: String) => {
       const formatArray = title.split("")
       if (formatArray.length > 0) {
         formatArray[0] = formatArray[0].toUpperCase()
@@ -41,11 +43,8 @@ export default defineComponent({
       return formatArray.join("")
     }
 
-    const goPage = url => {
-      // const pathname = window.location.pathname === "/" ? "" : window.location.pathname
-      const pathname = "https://zhuangweizhan.github.io/cb-ui/dist/index.html"
-
-      window.parent.open(pathname + "#doc/" + url, "_self")
+    const goPage = (url: String) => {
+      window.parent.open(commonData.pathname + "#doc/" + url, "_self")
     }
 
     return {

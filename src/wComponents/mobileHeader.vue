@@ -36,10 +36,7 @@ export default defineComponent({
     const stateCommon = useCommon("mobile-header")
 
     const backFn = () => {
-      // const pathname = window.location.pathname === "/" ? "" : window.location.pathname
-      const pathname = "https://zhuangweizhan.github.io/cb-ui/dist/index.html"
-
-      window.parent.open(pathname + "#/", "_self")
+      window.parent.open(stateCommon.pathname + "#/", "_self")
     }
 
     return {

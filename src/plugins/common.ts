@@ -4,5 +4,9 @@ import { reactive, ref } from "vue"
 export function useCommon(name: string) {
   const b = ref(`xdoc-${name}`)
   const be = ref(`xdoc-${name}__`)
-  return reactive({ b, be })
+  const pathname =
+    window.location.pathname === "/"
+      ? "https://zhuangweizhan.github.io/cb-ui/dist/index.html"
+      : window.location.pathname
+  return reactive({ b, be, pathname })
 }
