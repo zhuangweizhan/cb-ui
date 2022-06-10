@@ -3,7 +3,9 @@
     <template #pc>
       <w-card name="更新记录">
         <template #remark>
-          <div>* 1) <b>手写Button</b></div>
+          <div>* 1) <b>新增Button控件</b></div>
+          <div>* 2) <b>新增Input控件</b></div>
+          <div>* 3) <b>新增Tag控件</b></div>
         </template>
       </w-card>
     </template>
