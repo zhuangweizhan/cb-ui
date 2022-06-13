@@ -1,6 +1,6 @@
 <template>
   <span :class="b" @click="select">
-    <x-img width="24px" :class="`${be}img`" :src="name === groupValue ? activeIcon : inactiveIcon" />
+    <cb-img width="24px" :class="`${be}img`" :src="name === groupValue ? activeIcon : inactiveIcon" />
     <slot></slot>
   </span>
 </template>

@@ -18,7 +18,10 @@ const config = {
       children: [
         { name: "按钮", url: "button" },
         { name: "输入框", url: "input" },
-        { name: "标签", url: "tag" }
+        { name: "标签", url: "tag" },
+        { name: "选项栏", url: "tab", children: ["tabItem"] },
+        { name: "文本", url: "text" },
+        { name: "单选框", url: "radio", children: ["radioGroup"] }
       ]
     }
   ]

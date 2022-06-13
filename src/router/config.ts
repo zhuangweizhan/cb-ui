@@ -42,8 +42,8 @@ export const routesConfig = [
         component: () => import("@/views/doc/components/tag/index.vue")
       },
       {
-        path: "/doc/checkBox",
-        component: () => import("@/views/doc/components/check-box/index.vue")
+        path: "/doc/tab",
+        component: () => import("@/views/doc/components/tab/index.vue")
       },
       {
         path: "/doc/radio",
@@ -72,8 +72,8 @@ export const routesConfig = [
         component: () => import("@/views/doc/components/tag/mobile.vue")
       },
       {
-        path: "/mobile/checkBox",
-        component: () => import("@/views/doc/components/check-box/mobile.vue")
+        path: "/mobile/tab",
+        component: () => import("@/views/doc/components/tab/mobile.vue")
       },
       {
         path: "/mobile/radio",

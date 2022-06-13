@@ -1,0 +1,1 @@
+import{_ as r,d as c,k as p,o as e,p as o,m as _,K as i,q as l}from"./index.d2eb5698.js";const u=c({components:{},async setup(n,t){}});function m(n,t,d,v,f,x){const s=p("router-view");return e(),o(s,null,{default:_(({Component:a})=>[(e(),o(i,{include:n.includeCache},[(e(),o(l(a)))],1032,["include"]))]),_:1})}var y=r(u,[["render",m]]);export{y as default};

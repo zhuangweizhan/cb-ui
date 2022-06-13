@@ -8,5 +8,6 @@ export function useCommon(name: string) {
     window.location.pathname === "/"
       ? "https://zhuangweizhan.github.io/cb-ui/dist/index.html"
       : window.location.pathname
+  // const pathname = window.location.pathname
   return reactive({ b, be, pathname })
 }

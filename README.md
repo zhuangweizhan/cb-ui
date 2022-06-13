@@ -8,4 +8,4 @@
 
 1. 手写 Button, 教程参考：https://juejin.cn/post/7105928234042294303
 2. 手写 Input, 教程参考：https://juejin.cn/post/7106513310106796040
-3. 添加 Tag 组件
+3. 添加 Radio, tab等组件，教程参考： https://juejin.cn/post/7108743154370609182
