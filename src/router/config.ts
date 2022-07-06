@@ -52,6 +52,10 @@ export const routesConfig = [
       {
         path: "/doc/text",
         component: () => import("@/views/doc/components/text/index.vue")
+      },
+      {
+        path: "/doc/model",
+        component: () => import("@/views/doc/components/model/index.vue")
       }
     ]
   },
@@ -82,6 +86,10 @@ export const routesConfig = [
       {
         path: "/mobile/text",
         component: () => import("@/views/doc/components/text/mobile.vue")
+      },
+      {
+        path: "/mobile/model",
+        component: () => import("@/views/doc/components/model/mobile.vue")
       }
     ]
   },

@@ -14,7 +14,7 @@
       >
         <slot></slot>
       </span>
-      <x-icon name="right" size="small" @click="click"></x-icon>
+      <cb-icon name="right" size="small" @click="click"></cb-icon>
     </span>
   </template>
   <template v-else>

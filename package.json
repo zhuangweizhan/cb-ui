@@ -20,7 +20,7 @@
     "vue-happy-bus": "^2.0.1-vue3",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.0-0",
-    "vuex-persistedstate": "^4.1.0",
+    "vuecb-persistedstate": "^4.1.0",
     "babylon": "^6.18.0",
     "sass": "^1.43.2"
   },

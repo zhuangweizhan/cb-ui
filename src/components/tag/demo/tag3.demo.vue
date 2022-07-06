@@ -11,7 +11,7 @@
 </template>
 
 <style scoped>
-.x-tag {
+.cb-tag {
   margin-right: 10px;
 }
 </style>

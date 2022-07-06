@@ -21,7 +21,8 @@ const config = {
         { name: "标签", url: "tag" },
         { name: "选项栏", url: "tab", children: ["tabItem"] },
         { name: "文本", url: "text" },
-        { name: "单选框", url: "radio", children: ["radioGroup"] }
+        { name: "单选框", url: "radio", children: ["radioGroup"] },
+        { name: "弹窗", url: "model" }
       ]
     }
   ]

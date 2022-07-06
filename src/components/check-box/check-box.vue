@@ -1,6 +1,6 @@
 <template>
   <span :class="b" @click="() => select()">
-    <x-icon :class="`${be}icon`" size="larger" :name="name"></x-icon>
+    <cb-icon :class="`${be}icon`" size="larger" :name="name"></cb-icon>
     <slot></slot>
   </span>
 </template>

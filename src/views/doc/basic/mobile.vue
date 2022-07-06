@@ -12,7 +12,7 @@
           <span>{{ formatTitle(cItem.url) }}</span>
           <span style="margin-left:6px;"> {{ cItem.name }}</span>
         </div>
-        <x-icon name="right" size="default" />
+        <cb-icon name="right" size="default" />
       </div>
     </div>
   </div>

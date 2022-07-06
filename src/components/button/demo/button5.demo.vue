@@ -19,7 +19,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.x-button {
+.cb-button {
   width: 25%;
   margin: 5px;
 }

@@ -3,7 +3,7 @@
 </webdoc>
 
 <template>
-  <x-text>请选择你最喜欢做的事情:</x-text>
+  <cb-text>请选择你最喜欢做的事情:</cb-text>
   <m-card>
     <cb-radio-group v-model:value="value">
       <cb-radio name="1">加班</cb-radio>
@@ -27,7 +27,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.x-column {
+.cb-column {
   padding: 15px;
 }
 </style>
